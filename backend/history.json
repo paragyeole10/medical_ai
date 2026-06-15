@@ -1,0 +1,189 @@
+[
+    {
+        "case_id": "CASE-56C3DE",
+        "patient_id": "P-278BBC",
+        "patient_name": "Patient 254",
+        "patient_age": "45Y",
+        "patient_gender": "M",
+        "modality": "Brain MRI",
+        "upload_date": "2026-06-15 12:14",
+        "disease": "Meningioma",
+        "confidence": 0.84,
+        "severity": "Medium",
+        "risk_level": "Medium",
+        "clinical_summary": "Brain MRI analysis detects a structural mass lesion consistent with Meningioma. Tumor segmentation indicates it occupies approximately 8.36% of the cranial space. ",
+        "recommendations": [
+            "Contrast-enhanced brain MRI (with Gadolinium) is recommended.",
+            "Neurosurgical and neuro-oncological clinical assessment.",
+            "Monitor patient closely for signs of elevated intracranial pressure."
+        ],
+        "original_url": "/static/uploads/img_7dea8895-5795-4045-ab11-9f5ec0770cd3.png",
+        "heatmap_url": "/static/uploads/heatmap_7dea8895-5795-4045-ab11-9f5ec0770cd3.png",
+        "mask_url": "/static/uploads/mask_7dea8895-5795-4045-ab11-9f5ec0770cd3.png",
+        "has_mask": true,
+        "stats": {
+            "tumor_area": "7044 px",
+            "tumor_percentage": "8.36%",
+            "location": "Temporal Lobe"
+        }
+    },
+    {
+        "case_id": "CASE-612FA4",
+        "patient_id": "P-262704",
+        "patient_name": "Patient 235",
+        "patient_age": "75Y",
+        "patient_gender": "F",
+        "modality": "Chest X-Ray",
+        "upload_date": "2026-06-15 12:14",
+        "disease": "Effusion",
+        "confidence": 0.65,
+        "severity": "Medium",
+        "risk_level": "Medium",
+        "clinical_summary": "Automated analysis of the Chest X-Ray shows a 65.0% confidence of Effusion. The pathology is graded as Medium severity. ",
+        "recommendations": [
+            "Correlate with clinical history and laboratory findings.",
+            "PA and Lateral chest views are advised if symptoms persist.",
+            "Refer to a pulmonologist for formal consultation regarding suspected Effusion."
+        ],
+        "original_url": "/static/uploads/img_255da7ea-9584-4e6f-b50c-42602bfc3c00.png",
+        "heatmap_url": "/static/uploads/heatmap_255da7ea-9584-4e6f-b50c-42602bfc3c00.png",
+        "mask_url": null,
+        "has_mask": false,
+        "stats": {
+            "density": "Normal lung volume",
+            "aeration": "Slightly reduced in bases"
+        }
+    },
+    {
+        "case_id": "CASE-8B7F10",
+        "patient_id": "P-3E3D1F",
+        "patient_name": "Patient 254",
+        "patient_age": "45Y",
+        "patient_gender": "M",
+        "modality": "Brain MRI",
+        "upload_date": "2026-06-15 11:23",
+        "disease": "Meningioma",
+        "confidence": 0.84,
+        "severity": "Medium",
+        "risk_level": "Medium",
+        "clinical_summary": "Brain MRI analysis detects a structural mass lesion consistent with Meningioma. Tumor segmentation indicates it occupies approximately 8.39% of the cranial space. ",
+        "recommendations": [
+            "Contrast-enhanced brain MRI (with Gadolinium) is recommended.",
+            "Neurosurgical and neuro-oncological clinical assessment.",
+            "Monitor patient closely for signs of elevated intracranial pressure."
+        ],
+        "original_url": "/static/uploads/img_867f8442-5736-4f0b-af71-56e463c032a0.png",
+        "heatmap_url": "/static/uploads/heatmap_867f8442-5736-4f0b-af71-56e463c032a0.png",
+        "mask_url": "/static/uploads/mask_867f8442-5736-4f0b-af71-56e463c032a0.png",
+        "has_mask": true,
+        "stats": {
+            "tumor_area": "7068 px",
+            "tumor_percentage": "8.39%",
+            "location": "Temporal Lobe"
+        }
+    },
+    {
+        "case_id": "CASE-C80BAF",
+        "patient_id": "P-32A622",
+        "patient_name": "Patient 235",
+        "patient_age": "75Y",
+        "patient_gender": "F",
+        "modality": "Chest X-Ray",
+        "upload_date": "2026-06-15 11:10",
+        "disease": "Effusion",
+        "confidence": 0.65,
+        "severity": "Medium",
+        "risk_level": "Medium",
+        "clinical_summary": "Automated analysis of the Chest X-Ray shows a 65.0% confidence of Effusion. The pathology is graded as Medium severity. ",
+        "recommendations": [
+            "Correlate with clinical history and laboratory findings.",
+            "PA and Lateral chest views are advised if symptoms persist.",
+            "Refer to a pulmonologist for formal consultation regarding suspected Effusion."
+        ],
+        "original_url": "/static/uploads/img_f20279b3-5010-498e-9149-8f68245ac132.png",
+        "heatmap_url": "/static/uploads/heatmap_f20279b3-5010-498e-9149-8f68245ac132.png",
+        "mask_url": null,
+        "has_mask": false,
+        "stats": {
+            "density": "Normal lung volume",
+            "aeration": "Slightly reduced in bases"
+        }
+    },
+    {
+        "case_id": "CASE-7B4D1A",
+        "patient_id": "P-902F1A",
+        "patient_name": "Eleanor Vance",
+        "patient_age": "54Y",
+        "patient_gender": "F",
+        "modality": "Chest X-Ray",
+        "upload_date": "2026-06-14 10:44",
+        "disease": "Cardiomegaly",
+        "confidence": 0.82,
+        "severity": "Medium",
+        "risk_level": "Medium",
+        "clinical_summary": "Automated analysis of the Chest X-Ray shows a 82.0% confidence of Cardiomegaly. The heart silhouette is enlarged.",
+        "recommendations": [
+            "Correlate with echocardiography.",
+            "Refer to cardiologist."
+        ],
+        "original_url": "/static/seed_chest.png",
+        "heatmap_url": "/static/seed_chest_heatmap.png",
+        "has_mask": false,
+        "stats": {
+            "density": "Normal",
+            "aeration": "Normal"
+        }
+    },
+    {
+        "case_id": "CASE-4F1E90",
+        "patient_id": "P-77B1D5",
+        "patient_name": "Marcus Aurelius",
+        "patient_age": "62Y",
+        "patient_gender": "M",
+        "modality": "Brain MRI",
+        "upload_date": "2026-06-15 06:44",
+        "disease": "Glioma",
+        "confidence": 0.93,
+        "severity": "High",
+        "risk_level": "High",
+        "clinical_summary": "Brain MRI analysis detects a structural mass lesion consistent with Glioma. Tumor occupies 4.2% of brain space.",
+        "recommendations": [
+            "Contrast MRI suggested.",
+            "Immediate neurosurgical consult."
+        ],
+        "original_url": "/static/seed_brain.png",
+        "heatmap_url": "/static/seed_brain_heatmap.png",
+        "mask_url": "/static/seed_brain_mask.png",
+        "has_mask": true,
+        "stats": {
+            "tumor_area": "15420 px",
+            "tumor_percentage": "4.2%",
+            "location": "Right Frontal Lobe"
+        }
+    },
+    {
+        "case_id": "CASE-9C8E7D",
+        "patient_id": "P-044A12",
+        "patient_name": "Sarah Jenkins",
+        "patient_age": "39Y",
+        "patient_gender": "F",
+        "modality": "Diabetic Retinopathy",
+        "upload_date": "2026-06-14 22:44",
+        "disease": "Mild Diabetic Retinopathy",
+        "confidence": 0.88,
+        "severity": "Low",
+        "risk_level": "Low",
+        "clinical_summary": "Fundus photograph analysis reveals signs of Mild Diabetic Retinopathy with small microaneurysms.",
+        "recommendations": [
+            "Repeat screening in 6-12 months.",
+            "Monitor glycemic index."
+        ],
+        "original_url": "/static/seed_retina.png",
+        "heatmap_url": "/static/seed_retina_heatmap.png",
+        "has_mask": false,
+        "stats": {
+            "exudates": "None",
+            "hemorrhages": "None"
+        }
+    }
+]
